@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sign in — WDC Admin</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Karla:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/admin.css">
+</head>
+<body>
+
+<div class="gate" id="gate">
+  <form id="gateForm">
+    <h1>WDC content admin</h1>
+    <p>Sign in to edit the site. Everything you change here appears on the public pages immediately.</p>
+    <div class="field">
+      <label for="un">Username</label>
+      <input type="text" id="un" autocomplete="username" required>
+    </div>
+    <div class="field">
+      <label for="pw">Password</label>
+      <input type="password" id="pw" autocomplete="current-password" required>
+    </div>
+    <p class="err" id="gateErr"></p>
+    <button class="btn btn-primary" type="submit">Sign in</button>
+    <p style="margin-top:1.2rem;font-size:.85rem"><a href="index.html">Back to the site</a></p>
+  </form>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+<script src="assets/js/firebase.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/gate.js"></script>
+</body>
+</html>

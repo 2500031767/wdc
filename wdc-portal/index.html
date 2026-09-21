@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Women Development Cell — KLEF</title>
+<meta name="description" content="The Women Development Cell at KLEF runs counselling, health, skill development, safety and leadership programmes for women students, faculty and staff.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Karla:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="masthead">
+  <img id="mastheadImg" src="" alt="Koneru Lakshmaiah Education Foundation">
+</header>
+
+<div class="topbar">
+  <div class="shell">
+    <a class="brand" href="#/">
+      <b id="brandTitle">Women Development Cell</b>
+      <span id="brandSub">Women's Forum</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav">Menu</button>
+    <nav class="main" id="mainNav" aria-label="Main">
+      <ul>
+        <li><a href="#/" data-route="/">Home</a></li>
+        <li><a href="#/about" data-route="/about">About</a></li>
+        <li class="drop">
+          <button type="button" aria-expanded="false">Team</button>
+          <div class="drop-panel">
+            <a href="#/visionary">Our visionary</a>
+            <a href="#/convenor">Convenor</a>
+            <a href="#/core">Core committee</a>
+            <a href="#/dept">Department level committee</a>
+            <a href="#/student">Student committee</a>
+          </div>
+        </li>
+        <li class="drop">
+          <button type="button" aria-expanded="false">Events</button>
+          <div class="drop-panel">
+            <a href="#/events">Academic events</a>
+            <a href="#/femflare">FemFlare</a>
+            <a href="#/summit">Women's Summit</a>
+            <a href="#/womensday">Women's Day</a>
+          </div>
+        </li>
+        <li><a href="#/gallery" data-route="/gallery">Gallery</a></li>
+        <li><a href="#/scholarships" data-route="/scholarships">Scholarships</a></li>
+        <li><a href="#/contact" data-route="/contact">Contact</a></li>
+        <li><a href="admin.html">Admin</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+<main id="view"></main>
+
+<footer class="site">
+  <div class="shell">
+    <div class="foot-grid">
+      <div>
+        <h4 id="footTitle">Women Development Cell</h4>
+        <p style="font-size:.93rem;color:#d3b8c6;max-width:34ch">Koneru Lakshmaiah Education Foundation, Green Fields, Vaddeswaram, Guntur District, Andhra Pradesh.</p>
+      </div>
+      <div>
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="#/about">About us</a></li>
+          <li><a href="#/core">Core committee</a></li>
+          <li><a href="#/events">Academic events</a></li>
+          <li><a href="#/contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Documents</h4>
+        <ul id="footDocs"></ul>
+      </div>
+      <div>
+        <h4>Reach the cell</h4>
+        <ul id="footContact"></ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span id="footCopy"></span>
+      <span class="credit">Developed and designed by <b id="footCredit">CHINTA BALA MURALI SRIRAM</b></span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+<script src="assets/js/firebase.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
